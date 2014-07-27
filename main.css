@@ -1,0 +1,236 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*****END OF CSS RESET*****/
+
+
+/****HEADER AND NAV STYLING**/
+
+a{
+	text-decoration: none;
+	color: #585858;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px
+}
+
+.header {
+	height: 50px;
+}
+
+.header a:hover {
+	text-decoration: underline;
+}
+
+.nav{
+	float: right;
+}
+
+/**** END OF HEADER AND NAV STYLING**/
+/****STYLING OF NAV ELEMENTS**/
+
+
+.two{
+	margin-left: 15px;
+}
+
+.three{
+	margin-left: 15px;
+}
+
+.four{
+	margin-left: 15px;
+}
+
+.five{
+	margin-left: 15px;
+	margin-right: 10px;
+	border: 1px solid #808080;
+	padding: 5px 5px;
+	border-radius: 3px;
+	color: white;
+	font-size: 14px;
+	background-color: #2E64FE;
+	font-weight: bold;
+
+}
+
+/**** END OF STYLING OF NAV CONTENTS**/
+
+/****SPACE BETWEEN HEADER AND LOGO**/
+.upper{
+	height: 140px;
+}
+
+/****END OF SPACE BETWEEN HEADER AND LOGO**/
+
+/**** STYLING OF GOOGLE LOGO**/
+
+.logo img.center {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+}
+
+/**** END OF STYLING OF GOOGLE LOGO**/
+
+/**** STYLING OF SEARCH BAR**/
+
+form {  
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+ }
+
+ fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+	font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border: 1px solid #c6c7cc;
+	width: 550px;
+	height: 25px;
+	background: url("https://dl.dropboxusercontent.com/u/15152010/thinkful/FEWD/google_clone/images/microphone.png") no-repeat right;
+	background-size: 22px 25px;
+
+}
+
+
+/****END OF  STYLING OF SEARCH BAR**/
+
+/**** STYLING OF SEARCH BUTTONS**/
+
+.buttons {
+	width: 240px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.buttons a{
+	font-size: 11px;
+	font-weight: bold;
+	border: 1px solid #808080;
+	padding: 5px 5px;
+	border-radius: 3px;
+	color: #000;
+	font-size: 12px;
+	background-color: #F2F2F2;
+}
+
+.leftbut{
+	margin-right: 10px;
+}
+
+
+/**** END OF STYLING OF SEARCH BUTTONS**/
+
+/****SPACE BETWEEN SEARCHBUTTONS AND FOOTER**/
+
+.lower{
+	height: 347px;
+
+}
+
+/****END OF SPACE BETWEEN SEARCHBUTTONS AND FOOTER**/
+
+/**** GENERAL FOOTER STYLING**/
+
+.footer{
+	margin-top: 10px;
+	background-color: #F2F2F2;
+	height: 30px;
+	padding-top: 8px;
+}
+
+
+.footer a:hover{
+	text-decoration: underline;
+}
+
+
+.leftfooter{
+	display: inline;
+	float: left;
+	margin-left: 10px;
+}
+
+
+.rightfooter{
+	display: inline;
+	float: right;
+	margin-right: 10px;
+	
+}
+
+/**** END OF GENERAL FOOTER STYLING**/
+
+/****STYLING OF FOOTER ELEMENTS**/
+.first{
+	margin-right: 20px;
+}
+.second{
+	margin-right: 20px;
+}
+
+.fifth{
+	margin-left: 20px;
+}
+
+.sixth{
+	margin-left: 20px;
+}
+
+/****END OF STYLING OF FOOTER ELEMENTS**/
+
